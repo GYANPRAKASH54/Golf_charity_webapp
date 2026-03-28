@@ -27,7 +27,7 @@ process.on("unhandledRejection", (err) => {
 
 
 app.use(cors({
-  origin: "https://golfcharitysubscriptionplatform-chi.vercel.app",
+  origin: "https://golf-charity-webapp.vercel.app/",
   credentials: true
 }));
 
